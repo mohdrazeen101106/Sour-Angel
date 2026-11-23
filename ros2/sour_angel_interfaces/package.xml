@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sour_angel_interfaces</name>
+  <version>0.1.0</version>
+  <description>Flat ROS 2 message interfaces for the Sour Angel Pico bridge.</description>
+  <maintainer email="team@sourangel.local">Sour Angel</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
